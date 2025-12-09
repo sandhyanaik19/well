@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website - Home</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fdf6e3;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color:#ff6a00;;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+color:white;
+           
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 18px;
+        }
+
+        /* Full Banner Image */
+        .banner img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            display: block;
+        }
+
+        
+        .welcome {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .welcome h1 {
+            color: #d35400;
+        }
+
+        .welcome p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        /* Recipe Category Cards */
+        .categories {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            width: 280px;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 10px;
+            color: #d35400;
+        }
+.btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #ff6a00;
+            color: white;
+            font-size: 20px;
+            border-radius: 10px;
+            text-decoration: none;
+            margin-top: 20px;
+            margin-bottom:20px;
+            box-shadow: 0 5px 10px #ffa85d;
+        }
+h2{
+position:relative;
+left:510px;
+color:white;
+}
+
+    </style>
+</head>
+
+<body>
+    <!-- Recipe Categories -->
+<nav>
+    <h2 style="text-align:center; color:white;">Popular Categories</h2>
+</nav>
+    <div class="categories">
+
+        <div class="card">
+            <img src="C:\Users\ADMIN\OneDrive\Pictures/bre.jpg" alt="Breakfast">
+<a class="btn" href="myweb.html">Breakfast Recipes</a>
+        </div>
+<div class="card">
+            <img src="C:\Users\ADMIN\OneDrive\Pictures/samb.jpg" alt="sambar">
+<a class="btn" href="sambar.html">Sambar Recipes</a>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\ADMIN\OneDrive\Pictures/chik.jpg" alt="Chicken">
+<a class="btn" href="chicken.html">Chicken Recipes</a>
+        </div>
+
+        <div class="card">
+            <img src="C:\Users\ADMIN\OneDrive\Pictures/rot.jpg" alt="roti">
+           
+<a class="btn" href="roti.html">Roti Recipes</a>
+        </div>
+
+    </div>
+</body>
+</html>
